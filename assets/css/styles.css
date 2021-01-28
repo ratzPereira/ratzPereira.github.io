@@ -62,7 +62,7 @@ html {
 }
 
 body {
-  margin: var(--header-height) 0 0 0;
+  margin: var(--header-height) 0px 0px 0px;
   font-family: var(--body-font);
   font-style: var(--normal-font-size);
   font-weight: var(--font-medium);
@@ -123,7 +123,7 @@ img {
 
 /*   LAYOUT   */
 .bd-grid {
-  /*max-width: 1024px;*/
+  max-width: 1024px;
   display: grid;
   grid-template-columns: 100%;
   column-gap: 2rem;
@@ -377,10 +377,10 @@ img {
   width: 80%;
 }
 .skills__js {
-  width: 90%;
+  width: 80%;
 }
 .skills__react {
-  width: 50%;
+  width: 80%;
 }
 .skills__angular {
   width: 20%;
@@ -399,7 +399,7 @@ img {
 }
 
 .skills__python {
-  width: 80%;
+  width: 20%;
 }
 
 /*    EDUCATION   */
@@ -753,7 +753,7 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
-  .body {
+  body {
     margin: 0;
     padding-left: var(--nav-width);
   }

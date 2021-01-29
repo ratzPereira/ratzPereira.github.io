@@ -220,16 +220,16 @@ img {
 .home__img {
   padding-top: 1.3rem;
   padding-left: 0.8rem;
-  width: 160px;
-  height: 160px;
-  background-color: var(--first-color);
+  width: 240px;
+  height: 240px;
+  /*background-color: var(--first-color);*/
   border-radius: 50%;
-  overflow: hidden;
+  /* overflow: hidden;*/
   margin-bottom: var(--mb-2);
 }
 
 .home__img img {
-  width: 155px;
+  width: 353px;
 }
 
 .home__title {
@@ -317,14 +317,14 @@ img {
 .about__information-title {
   font-size: var(--h3-font-size);
   color: var(--first-color-dark);
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-4);
 }
 
 .about__information-data {
   display: flex;
   align-items: center;
   padding-left: 1.5rem;
-  margin-bottom: var(--mb-3);
+  margin-bottom: 2.7rem; /* was var 2*/
 }
 
 .about__information-icon {
@@ -527,16 +527,23 @@ img {
 
 .project__title,
 .project__description {
-  color: var(--first-color-lighten);
+  color: var(--first-color-darken);
+  font-size: var(--h1-font-size);
 }
 
 .project__description {
+  font-size: 1.3rem;
   margin-bottom: var(--mb-4);
+  color: var(--first-color-lighten);
 }
 
 .project__img {
   width: 220px;
   justify-self: center;
+  margin-bottom: 4rem;
+  border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden;
 }
 
 /*    WORKS    */
@@ -579,6 +586,7 @@ img {
 .works__title {
   font-size: var(--h2-font-size);
   color: var(--first-color-lighten);
+  text-align: center;
 }
 
 .works__img:hover .works__data {
@@ -613,18 +621,20 @@ img {
 }
 
 .contact__info {
-  margin-bottom: var(--mb-3);
+  margin-bottom: var(--mb-4);
 }
 
 .contact__subtitle {
-  font-size: var(--h3-font-size);
+  font-size: var(--h2-font-size);
   color: var(--first-color-dark);
   margin-bottom: var(--mb-1);
+  padding-left: 1.5rem; /* center subtitle */
 }
 
 .contact__text {
   display: block;
   padding-left: 1rem;
+  font-size: var(--h3-font-size);
 }
 
 /*    FOOTER    */
@@ -790,5 +800,20 @@ img {
   .services__container,
   .works__container {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* added this */
+  .home__social-link {
+    width: 45px;
+    height: 45px;
+    font-size: 2.1rem;
+  }
+
+  .home__title {
+    font-size: 320%;
+  }
+
+  .home__profession {
+    font-size: var(--h3-font-size);
   }
 }

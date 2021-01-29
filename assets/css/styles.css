@@ -344,62 +344,51 @@ img {
 
 /*   SKILLS   */
 
-.skills__container {
-  row-gap: 2rem;
-}
-
 .skills__subtitle {
   font-size: var(--h3-font-size);
   color: var(--first-color-dark);
   margin-bottom: var(--mb-2);
 }
 
-.skills__data {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 var(--mb-2);
-  margin-bottom: var(--mb-4);
+.skillsop__icon {
+  font-size: 3rem;
+  padding: 0.5rem;
+
+  color: var(--first-color-);
+  border-radius: 100%;
+  margin-bottom: var(--mb-2);
 }
 
-.skills__name {
-  text-transform: uppercase;
+.skills__container {
+  row-gap: 2rem;
 }
 
-.skills__bar {
-  position: absolute;
-  bottom: -0.75rem;
-  height: 0.25rem;
+.skills__content {
+  padding: 1.5rem 0.5rem;
+  border: 2px solid var(--first-color);
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.skills__icon {
+  font-size: 2rem;
+  padding: 0.5rem;
   background-color: var(--first-color);
+  color: var(--first-color-lighten);
+  border-radius: 50%;
+  margin-bottom: var(--mb-2);
 }
 
-.skills__html {
-  width: 80%;
+.skills__title {
+  font-size: 1.25rem;
+  color: var(--first-color-dark);
+  margin-bottom: var(--mb-1);
 }
-.skills__js {
-  width: 80%;
-}
-.skills__react {
-  width: 80%;
-}
-.skills__angular {
-  width: 20%;
-}
-
-.skills__php {
-  width: 80%;
-}
-
-.skills__node {
-  width: 80%;
-}
-
-.skills__firebase {
-  width: 80%;
-}
-
-.skills__python {
-  width: 20%;
+.skills__content,
+.skills__icon,
+.skills__title,
+.skills_description {
+  transition: 0.5s;
 }
 
 /*    EDUCATION   */
@@ -742,6 +731,7 @@ img {
     align-self: flex-end;
   }
 
+  /* CONTACT*/
   .contact__inputs {
     display: grid;
     column-gap: 1.5rem;
@@ -800,6 +790,9 @@ img {
   .services__container,
   .works__container {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .skills__container {
+    grid-template-columns: repeat(4, 1fr);
   }
 
   /* added this */

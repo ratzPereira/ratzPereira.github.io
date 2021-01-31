@@ -11,10 +11,10 @@
   --font-bold: 700;
 
   /* colors  */
-  --first-color: #cc4b2c;
-  --first-color-dark: #662616;
-  --first-color-darken: #290f09;
-  --text-color: #54423d;
+  --first-color: rgb(127, 127, 127);
+  --first-color-dark: rgb(43, 21, 21);
+  --first-color-darken: #111010;
+  --text-color: rgb(27, 27, 27);
   --first-color-light: #eae7e6;
   --first-color-lighten: #fffafa;
 
@@ -220,21 +220,21 @@ img {
 .home__img {
   padding-top: 1.3rem;
   padding-left: 0.8rem;
-  width: 240px;
-  height: 240px;
-  /*background-color: var(--first-color);*/
+  width: max-content;
+  height: max-content;
+  background-color: var(--first-color);
   border-radius: 50%;
-  /* overflow: hidden;*/
+  overflow: hidden;
   margin-bottom: var(--mb-2);
 }
 
 .home__img img {
-  width: 353px;
+  max-width: 265px;
 }
 
 .home__title {
   font-size: var(--h1-font-size);
-  color: var(--first-color);
+  color: var(--first-color-darken);
   font-weight: var(--font-semi-bold);
 }
 .home__profession {
@@ -249,7 +249,7 @@ img {
 
 .home__social-link {
   display: inline-flex;
-  background-color: var(--first-color);
+  background-color: var(--first-color-darken);
   color: var(--first-color-lighten);
   font-size: 1.1rem;
   border-radius: 50%;
@@ -259,7 +259,7 @@ img {
 }
 
 .home__social-link:hover {
-  background-color: var(--first-color-dark);
+  background-color: var(--first-color);
 }
 
 .home__button {
@@ -278,7 +278,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--first-color-dark);
+  background-color: var(--first-color-darken);
 }
 
 .button__light {
@@ -636,6 +636,7 @@ img {
 .footer__title {
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-2);
+  color: var(--first-color);
 }
 
 .footer__description {
@@ -648,8 +649,8 @@ img {
 
 .footer__link {
   display: inline-flex;
-  background-color: var(--first-color);
-  color: var(--first-color-lighten);
+  background-color: var(--first-color-lighten);
+  color: var(--first-color-darken);
   font-size: 1.1rem;
   border-radius: 50%;
   padding: 0.4rem;
@@ -664,7 +665,7 @@ img {
 
 .footer__copy {
   font-size: var(--smaller-font-size);
-  color: var(--text-color);
+  color: var(--first-color-lighten);
 }
 
 /*  MEDIA QUERIES!!!!!!!*/

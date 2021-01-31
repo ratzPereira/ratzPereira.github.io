@@ -259,7 +259,8 @@ img {
 }
 
 .home__social-link:hover {
-  background-color: var(--first-color-dark);
+  color: var(--first-color);
+  background-color: var(--first-color-lighten);
 }
 
 .home__button {
@@ -278,7 +279,8 @@ img {
 }
 
 .button:hover {
-  background-color: var(--first-color);
+  color: var(--first-color-darken);
+  background-color: var(--first-color-lighten);
 }
 
 .button__light {
@@ -312,6 +314,7 @@ img {
 
 .about__information {
   margin-bottom: var(--mb-4);
+  font-size: var(--h3-font-size);
 }
 
 .about__information-title {
@@ -615,7 +618,7 @@ img {
 
 .contact__subtitle {
   font-size: var(--h2-font-size);
-  color: var(--first-color-dark);
+  color: var(--first-color-darken);
   margin-bottom: var(--mb-1);
   padding-left: 1.5rem; /* center subtitle */
 }
@@ -636,7 +639,7 @@ img {
 .footer__title {
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-2);
-  color: var(--first-color);
+  color: black;
 }
 
 .footer__description {

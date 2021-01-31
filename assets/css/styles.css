@@ -11,9 +11,9 @@
   --font-bold: 700;
 
   /* colors  */
-  --first-color: rgb(127, 127, 127);
+  --first-color: #323232;
   --first-color-dark: rgb(43, 21, 21);
-  --first-color-darken: #111010;
+  --first-color-darken: #4d4040;
   --text-color: rgb(27, 27, 27);
   --first-color-light: #eae7e6;
   --first-color-lighten: #fffafa;
@@ -428,7 +428,7 @@ img {
   display: inline-block;
   width: 12px;
   height: 12px;
-  background-color: var(--first-color);
+  background-color: #4d6d9a;
   border-radius: 50%;
 }
 
@@ -557,7 +557,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(204, 75, 44, 0.7);
+  background: rgba(46, 25, 20, 0.7);
   border-radius: 0.5rem;
   transition: 0.3s;
 }

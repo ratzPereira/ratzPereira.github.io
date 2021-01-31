@@ -107,7 +107,7 @@ img {
 
 .section-title {
   font-size: var(--h1-font-size);
-  color: var(--first-color);
+  color: #737373;
   margin-bottom: var(--mb-3);
   text-align: center;
 }
@@ -222,7 +222,7 @@ img {
   padding-left: 0.8rem;
   width: max-content;
   height: max-content;
-  background-color: var(--first-color);
+  background-color: #737373;
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: var(--mb-2);
@@ -384,7 +384,7 @@ img {
 
 .skills__title {
   font-size: 1.25rem;
-  color: var(--first-color-dark);
+  color: var(--first-color-darken);
   margin-bottom: var(--mb-1);
 }
 .skills__content,
@@ -477,7 +477,7 @@ img {
 
 .services__title {
   font-size: 1.25rem;
-  color: var(--first-color-dark);
+  color: var(--first-color-darken);
   margin-bottom: var(--mb-1);
 }
 .services__content,

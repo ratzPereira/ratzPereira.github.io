@@ -185,7 +185,7 @@ img {
 }
 
 .nav__link:hover {
-  color: var(--text-color);
+  color: #737373;
 }
 
 .nav__toggle {
@@ -201,7 +201,7 @@ img {
 
 /* ACTIVE MENU */
 .active {
-  color: var(--text-color);
+  color: #737373;
 }
 
 /*   HOME   */

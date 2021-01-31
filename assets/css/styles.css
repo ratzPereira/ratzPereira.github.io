@@ -249,7 +249,7 @@ img {
 
 .home__social-link {
   display: inline-flex;
-  background-color: var(--first-color-darken);
+  background-color: var(--first-color);
   color: var(--first-color-lighten);
   font-size: 1.1rem;
   border-radius: 50%;
@@ -259,7 +259,7 @@ img {
 }
 
 .home__social-link:hover {
-  background-color: var(--first-color);
+  background-color: var(--first-color-dark);
 }
 
 .home__button {
@@ -269,7 +269,7 @@ img {
 /*   BUTTONS   */
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: var(--first-color-darken);
   color: var(--first-color-lighten);
   padding: 1rem 2rem;
   font-weight: var(--font-semi-bold);
@@ -278,7 +278,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--first-color-darken);
+  background-color: var(--first-color);
 }
 
 .button__light {
